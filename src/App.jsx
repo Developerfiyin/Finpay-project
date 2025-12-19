@@ -8,10 +8,10 @@ function App() {
     <>
     <Header/>
 
-       <section id='#products'></section>
+    <section id='#products'></section>
     <section id='#customers'></section>
     <section id='#pricing'></section>
-       
+    <section id='#learn'></section>
     </>
   )
 }
