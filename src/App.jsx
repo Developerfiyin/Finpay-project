@@ -1,14 +1,16 @@
 import { useState } from 'react'
 import './App.css'
-
+import Header from './Components/Header'
 function App() {
 
 
   return (
     <>
-    <div>
+    <Header/>
 
-    </div>
+       <section id='#products'></section>
+    <section id='#customers'></section>
+    <section id='#pricing'></section>
        
     </>
   )
