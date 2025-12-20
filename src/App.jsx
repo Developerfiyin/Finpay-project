@@ -13,7 +13,7 @@ function App() {
     <section id='#pricing'></section>
     <section id='#learn'></section>
     </>
-  )
+  ) 
 }
 
 export default App
