@@ -2,10 +2,10 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className=' bg-stone-700'> 
+    <div className=' bg-[#DABC9A]'> 
 
-   <img src="" alt="" />
-
+   <img src="" alt="" /> 070 344 69 731 70 65 27 38 99
+   <h3 className='text-[#1A0A00] text-2xl font-medium'>Coffee</h3>
     <div className='flex justify-around'>
    <a href="#home">Home</a>
    <a href="#menu">Menu</a>
