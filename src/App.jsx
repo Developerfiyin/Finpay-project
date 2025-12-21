@@ -10,9 +10,10 @@ function App() {
     <Header/>
 
     <section id='#products'></section>
-    <section id='#customers'></section>
-    <section id='#pricing'></section>
-    <section id='#learn'></section>
+    <section id='#menu'></section>
+    <section id='#about'></section>
+    <section id='#newsletter'></section>
+    <section id='#footer'></section>
     <Hero/>
     </>
   ) 
