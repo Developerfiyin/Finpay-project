@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Header from './Components/Header'
 import Hero from './Components/Hero'
+import Menu from './Components/Menu'
 function App() {
 
 
@@ -15,6 +16,7 @@ function App() {
     <section id='#newsletter'></section>
     <section id='#footer'></section>
     <Hero/>
+    <Menu/>
     </>
   ) 
 }
