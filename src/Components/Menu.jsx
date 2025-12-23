@@ -15,8 +15,8 @@ const Menu = () => {
              </div>
 
              <div className='flex justify-between mt-4'>
-              <h4> Cappuccino</h4>
-              <h6> $12.50</h6>
+              <h4 className='text-[#36231d]'> Cappuccino</h4>
+              <h6 className='text-[#8d603f]'> $12.50</h6>
              </div>
 
                 </div>
