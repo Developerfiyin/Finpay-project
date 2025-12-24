@@ -1,6 +1,7 @@
 import React from 'react'
 import image  from '../assets/cappuccino.png'
 import doppio from '../assets/Doppio.png'
+import Ristretto from '../assets/Ristretto.png'
 
 
 const Menu = () => {
