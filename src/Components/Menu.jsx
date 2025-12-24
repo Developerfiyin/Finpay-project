@@ -8,9 +8,9 @@ const Menu = () => {
   return (
     <section className='py-8 px-4 text-[#36231D] bg-white'>
        <h3 className='text-xl font-bold text-center '>Our Menu </h3> 
-     <h1 className='text-7xl font-semibold mb-4'>Discover Our <br /> Exquiste Menu</h1>
+     <h1 className='text-7xl font-semibold mb-6'>Discover Our <br /> Exquiste Menu</h1>
 
-            <div className='flex justify-evenly gap-5'>
+            <div className='flex justify-evenly gap-5 mt-6'>
             <div className='py-2 bg-white px-4 rounded-lg shadow-sm shadow-[#36231d]'>
             <div>
              <img src={image} alt="Cappucino coffee image" className='w-60 h-60 rounded-lg' />
