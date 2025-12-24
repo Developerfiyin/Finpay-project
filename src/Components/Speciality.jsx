@@ -10,7 +10,7 @@ const Speciality = () => {
             <div className=''>
             <img src={coffee} alt="The exceptional coffee image" className='rounded-t-lg'/>
                  <div className='bg-white rounded-b-lg'> 
-                    <h1 className='text-5xl p-7  font-semibold text-[#36231d]'> Exceptional Coffee</h1>
+                    <h1 className='text-5xl p-7 font-semibold text-[#36231d]'> Exceptional Coffee</h1>
                  </div>
             </div>
            </div>
