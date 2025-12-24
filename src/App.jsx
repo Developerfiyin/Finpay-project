@@ -3,6 +3,7 @@ import './App.css'
 import Header from './Components/Header'
 import Hero from './Components/Hero'
 import Menu from './Components/Menu'
+import Newsletter from './Components/Newsletter'
 function App() {
 
 
@@ -17,6 +18,7 @@ function App() {
     <section id='#footer'></section>
     <Hero/>
     <Menu/>
+    <Newsletter/>
     </>
   ) 
 }
