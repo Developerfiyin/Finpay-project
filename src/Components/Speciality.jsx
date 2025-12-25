@@ -9,10 +9,10 @@ const Speciality = () => {
           <h5 className='mt-6'> Our Speciality</h5>
           <h1 className='text-6xl font-semibold'>We Deliver Good Vibes everyday</h1>
 
-           <div className='flex justify-evenly mt-6 gap-5'>
-            <div className=''>
+           <div className='grid grid-cols-1 sm:grid-cols-3 gap-5'>
+            <div className='w-full h-64'>
             <img src={coffee} alt="The exceptional coffee image" className='rounded-t-lg'/>
-                 <div className='bg-white rounded-b-lg'> 
+                 <div className='bg-white rounded-b-lg w-full h-full object-cover'> 
                     <h1 className='text-5xl p-7 font-semibold text-[#36231d]'> Exceptional Coffee</h1>
                  </div>
             </div>
