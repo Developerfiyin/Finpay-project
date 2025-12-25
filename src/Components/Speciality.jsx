@@ -1,6 +1,7 @@
 import React from 'react'
 import coffee from '../assets/coffee.png'
 import Worker from '../assets/worker 1.png'
+import Worker1 from '../assets/worker 2.png'
 
 const Speciality = () => {
   return (
@@ -23,8 +24,8 @@ const Speciality = () => {
                  </div>
             </div>
 
- <div className=''>
-            <img src={coffee} alt="The exceptional coffee image" className='rounded-t-lg'/>
+      <div className=''>
+            <img src={Worker1} alt="The exceptional coffee image" className='rounded-t-lg h-60 w-60'/>
                  <div className='bg-white rounded-b-lg'> 
                     <h1 className='text-5xl p-7 font-semibold text-[#36231d]'> Exceptional Coffee</h1>
                  </div>
