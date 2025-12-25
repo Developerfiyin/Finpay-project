@@ -25,9 +25,9 @@ const Speciality = () => {
             </div> 
 
            <div className=''>
-            <img src={Worker1} alt="The exceptional coffee image" className='rounded-t-lgw-80 '/>
+            <img src={Worker1} alt="The exceptional coffee image" className='rounded-t-lg h-60 w-full'/>
                  <div className='bg-white rounded-b-lg'> 
-                    <h1 className='text-5xl p-7 font-semibold text-[#36231d]'> Exceptional Coffee</h1>
+                    <h1 className='text-5xl p-5 font-semibold text-[#36231d]'> Exceptional Coffee</h1>
                  </div>
             </div>
 
