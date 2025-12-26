@@ -32,7 +32,7 @@ const Speciality = () => {
             </div>
            </div>
 
-            <button className='mt-5 py-3 p-2  rounded-3xl  text-[#36231d] bg-[#8d603f]'>View All</but
+            <button className=' hover:text-[#8d603f] hover:bg-[#36231d] mt-5 p-3 text-xl font-semibold rounded-3xl text-[#36231d] bg-[#8d603f] ease-in duration-300'>View All</button>
         </main>
   )
 }
