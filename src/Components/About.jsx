@@ -2,7 +2,17 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div>About</div>
+    <main className='py-6 px-4 '>
+          
+<div className='flex justify-around'>
+
+<div className='flex flex-col'> 
+
+</div>
+
+</div>
+
+    </main>
   )
 }
 
