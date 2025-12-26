@@ -4,6 +4,8 @@ import Header from './Components/Header'
 import Hero from './Components/Hero'
 import Menu from './Components/Menu'
 import Speciality from './Components/Speciality'
+import About from './Components/About'
+
 import Newsletter from './Components/Newsletter'
 function App() {
 
@@ -20,6 +22,7 @@ function App() {
     <Hero/>
     <Menu/>
     <Speciality/>
+    <About/>
     <Newsletter/>
     </>
   ) 
