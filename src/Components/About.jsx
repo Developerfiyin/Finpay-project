@@ -10,12 +10,17 @@ const About = () => {
   <div className='flex flex-col'> 
     <p className='text-2xl font-semibold mb-4 '>About Us</p>
     <h1 className='text-5xl font-semibold mb-4 '>This Is All About Our Coffee Shop</h1>
-   <h5> NEAT Coffee Bar aims to create a flexible co-working environment <br />
+   <h5 className='mt-2'> NEAT Coffee Bar aims to create a flexible co-working environment <br />
     that provides solution to a wide variety of working professionals. <br />
     The best place to do business with best coffee of the course! Neat <br />
     Coffee Bar is located directly in historic Downtown New port richey.
    </h5>
 
+<h5>Neat Coffee Bar aims a flexible co-working environment <br />
+ that provides solution to a wide variety of working professionals <br />
+ The best place to do business with the best coffee of course ! Neat <br />
+ Coffee Bar is located directly in historic Downtown New port richey.
+  </h5>
 
  </div>
 
