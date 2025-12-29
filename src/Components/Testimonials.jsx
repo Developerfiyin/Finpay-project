@@ -39,20 +39,18 @@ const Testimonials = () => {
          <div className='flex gap-4 mb-4'> {/* THE IMAGE AND  NAME DIV */ }
             <img src={image2} alt="The member image " className='rounded-full h-15 w-15' /> 
             <div> 
-           <h4 className='text-3xl font-semibold'> John Smith </h4>
+           <h4 className='text-3xl font-semibold'>John Smith </h4>
             <h5 className='text-xl font-medium '>Founder Main Street Bakery</h5>
             </div>
          </div>
           <h3>NEAT has completely transform how i work. The coffee is amazing, the space is inspiring and the vibe is always welcoming! </h3>
       </div>
-     
 
-
-
+        <div className='items-center ' >
+            <button className='rounded-full h-10 w-10 bg-black'>
+             </button>
+        </div>
      </div>
-
-      
-
 
     </main>
   )
