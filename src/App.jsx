@@ -14,18 +14,34 @@ function App() {
   return (
     <>
     <Header/>
+ <Hero/>
+ 
+    <section id='#menu'>
+     <Menu/>
+    </section>
 
-    <section id='#products'></section>
-    <section id='#menu'></section>
-    <section id='#about'></section>
-    <section id='#newsletter'></section>
+    <section id='#speciality'>
+        <Speciality/>
+    </section>
+
+    <section id='#about'>
+      <About/>
+    </section>
+
+    <section id='#testimonials'> 
+ <Testimonials/>
+    </section>
+
+    <section id='#newsletter'>
+     <Newsletter/>
+    </section>
     <section id='#footer'></section>
-    <Hero/>
-    <Menu/>
-    <Speciality/>
-    <About/>
-    <Testimonials/>
-    <Newsletter/>
+   
+   
+  
+   
+   
+   
     </>
   ) 
 }

@@ -1,8 +1,10 @@
 import React from 'react'
-
+import Footer from '../assets/Footer coffee.png'
 const Newsletter = () => {
   return (
-    <div>Newsletter</div>
+    <main className='bg-cover bg- '>
+        
+        </main>
   )
 }
 
