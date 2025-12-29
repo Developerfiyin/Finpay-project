@@ -22,13 +22,10 @@ const About = () => {
  Coffee Bar is located directly in historic Downtown New port richey.
   </h5>
     <button className='border-2 w-50 text-[#8d603f] bg-[#36231D] m-2 p-2 rounded-3xl text-base font-medium hover:bg-[#8d603f] hover:text-[#36231D] ease-in-out duration-300 '>Read More</button>
-
-
  </div>
 
  <div>
-    <img src={image} alt="" className='rounded-3xl w-150 h-150
-     ' />
+    <img src={image} alt="THE COFFEE IMAGE FOR ABOUT SECTION" className='rounded-3xl w-150 h-150' />
  </div>
 
 </div>
