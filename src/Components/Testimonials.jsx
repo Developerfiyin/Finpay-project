@@ -8,9 +8,9 @@ const Testimonials = () => {
   return (
     <main className='py-4 px-4  bg-white text-[#80603f] text-center items-center'>
       <h5 className='text-2xl font-medium'>TESTIMONIALS</h5>
-      <h2 className='text-7xl font-semibold '>WHAT OUR CLIENTS SAYS</h2>
+      <h2 className='text-5xl font-semibold'>WHAT OUR CLIENTS SAYS</h2>
     
-     <div className='flex gap-5 grid-cols-3 grid mt-4'> 
+     <div className=' gap-5 grid-cols-3 grid mt-9'> 
       <div className='m-4 p-4 hover:border-2 rounded-2xl shadow-sm shadow-[#36231d] ease-in-out duration-300 '>
          <div className='flex gap-4 mb-4'> {/* THE IMAGE AND  NAME DIV */ }
             <img src={image} alt="The member image" className='rounded-full h-15 w-15' /> 
@@ -45,13 +45,11 @@ const Testimonials = () => {
          </div>
           <h3>NEAT has completely transform how i work. The coffee is amazing, the space is inspiring and the vibe is always welcoming! </h3>
       </div>
-
-        <div className='items-center ' >
-            <button className='rounded-full h-10 w-10 bg-black'>
-             </button>
-        </div>
      </div>
-
+         <div className='items-center space-x-5 mt-7'>
+            <button className='rounded-full h-12 w-12 border-2 border-black'></button>
+            <button className='rounded-full h-12 w-12 border-none bg-black'></button>
+        </div>
     </main>
   )
 }
