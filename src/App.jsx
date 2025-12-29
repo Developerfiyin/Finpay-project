@@ -6,7 +6,6 @@ import Menu from './Components/Menu'
 import Speciality from './Components/Speciality'
 import About from './Components/About'
 import Testimonials from './Components/Testimonials'  
-
 import Newsletter from './Components/Newsletter'
 function App() {
 
@@ -14,28 +13,28 @@ function App() {
   return (
     <>
     <Header/>
- <Hero/>
- 
-    <section id='#menu'>
+  <Hero/>
+
+    <section id='menu'>
      <Menu/>
     </section>
 
-    <section id='#speciality'>
+    <section id='speciality'>
         <Speciality/>
     </section>
 
-    <section id='#about'>
+    <section id='about'>
       <About/>
     </section>
 
-    <section id='#testimonials'> 
+    <section id='testimonials'> 
  <Testimonials/>
     </section>
 
-    <section id='#newsletter'>
+    <section id='newsletter'>
      <Newsletter/>
     </section>
-    <section id='#footer'></section>
+    <section id='footer'></section>
    
    
   
