@@ -5,6 +5,7 @@ import Hero from './Components/Hero'
 import Menu from './Components/Menu'
 import Speciality from './Components/Speciality'
 import About from './Components/About'
+import Testimonials from './Components/Testimonials'  
 
 import Newsletter from './Components/Newsletter'
 function App() {
@@ -23,6 +24,7 @@ function App() {
     <Menu/>
     <Speciality/>
     <About/>
+    <Testimonials/>
     <Newsletter/>
     </>
   ) 
