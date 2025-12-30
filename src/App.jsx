@@ -14,7 +14,11 @@ function App() {
   return (
     <>
     <Header/>
-  <Hero/>
+
+    <section id='home'> 
+    <Hero/>
+    </section>
+ 
 
     <section id='menu'>
      <Menu/>
