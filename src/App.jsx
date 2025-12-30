@@ -19,7 +19,6 @@ function App() {
     <Hero/>
     </section>
  
-
     <section id='menu'>
      <Menu/>
     </section>
