@@ -39,11 +39,9 @@ const Footer = () => {
          <h5 className='mb-6'>wayne@neatcoffeegmail.com</h5>
          <h5>23a yudod street street.</h5>
         </div>
-
-
       </div>
 
-
+        <h6 className='border-t-2 border-[#36231d] font-medium text-center'>Terms & Conditions | Privacy and policy </h6>
       </section>
   )
 }
