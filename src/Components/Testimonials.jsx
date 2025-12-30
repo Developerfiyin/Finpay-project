@@ -46,6 +46,13 @@ const Testimonials = () => {
           <h3>NEAT has completely transform how i work. The coffee is amazing, the space is inspiring and the vibe is always welcoming! </h3>
       </div>
      </div>
+     
+  import { FaBeer } from 'react-icons/fa';
+
+  class Question extends React.Component {
+   <h3> Lets go for a <FaBeer />? </h3>
+  }
+
          <div className='items-center space-x-5 mt-7'>
             <button className='rounded-full h-12 w-12 border-2 border-black'></button>
             <button className='rounded-full h-12 w-12 border-none bg-black'></button>

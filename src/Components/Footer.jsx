@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
       </div>
 
-        <h6 className='border-t-2 border-[#36231d] font-medium text-center'>Terms & Conditions | Privacy and policy </h6>
+        <h6 className='border-t-2 pt-2 border-[#36231d] font-medium text-center'>Terms & Conditions | Privacy and policy </h6>
       </section>
   )
 }
