@@ -23,7 +23,7 @@ const Footer = () => {
        
        {/*NEAT MEMBERSHIP */}
          <div className='font-semibold'>
-         <h3 className='text-3xl mb-6 '>Neat Membership</h3>
+         <h3 className='text-3xl mb-4 '>Neat Membership</h3>
           <h5 className='text-xl p-1 '>Neat Member</h5>
           <h5 className='text-xl p-1'>Neat Bronze member</h5>
           <h5 className='text-xl p-1'>Neat Vendor member</h5>
