@@ -22,13 +22,13 @@ const Footer = () => {
         </div>
        
        {/*NEAT MEMBERSHIP */}
-         <div className=''>
-     <h3 className='text-2xl mb-6 font-semibold'>Neat Membership</h3>
-          <h5 className='text-xl p-1'>Neat Member</h5>
-          <h5 className='text-xl p-2'>Neat Bronze member</h5>
-          <h5 className='text-xl p-2'>Neat Vendor member</h5>
-          <h5 className='text-xl p-2'>Neat Sliver member</h5>
-          <h5 className='text-xl p-2'>Neat Gold Member</h5>
+         <div className='font-semibold'>
+         <h3 className='text-3xl mb-6 '>Neat Membership</h3>
+          <h5 className='text-xl p-1 '>Neat Member</h5>
+          <h5 className='text-xl p-1'>Neat Bronze member</h5>
+          <h5 className='text-xl p-1'>Neat Vendor member</h5>
+          <h5 className='text-xl p-1'>Neat Sliver member</h5>
+          <h5 className='text-xl p-1'>Neat Gold Member</h5>
          </div>
 
       </div>
