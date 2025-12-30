@@ -13,7 +13,7 @@ const Newsletter = () => {
          <button className='bg-[#36231d] ease-in-out duration-500 border-none outline-none font-semibold hover:text-[#36231d] hover:border-2 hover:bg-white rounded-3xl w-50 h-13 text-[#80603f]'>Subscribe</button>
     </main>
   )
-
+                                                                                        
 
 }
 
