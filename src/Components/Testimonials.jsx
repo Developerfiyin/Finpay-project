@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaArrowLeft } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 import image from '../assets/member 1.png'
 import image1 from '../assets/member 2.png'
 import image2 from '../assets/member 3.png'
@@ -23,7 +25,7 @@ const Testimonials = () => {
      
        <div className='m-4 p-4 hover:border-2 rounded-2xl shadow-sm shadow-[#36231d] ease-in-out duration-300 '>
          <div className='flex gap-4 mb-4'> {/* THE IMAGE AND  NAME DIV */ }
-            <img src={image1} alt="The second member image " className='rounded-full h-15 w-15' /> 
+            <img src={image1} alt="The second member image" className='rounded-full h-15 w-15' /> 
             <div> 
            <h4 className='text-3xl font-semibold'> John Doe </h4>
             <h5 className='text-xl font-medium '>Founder .32degreebelowfla</h5>
@@ -46,9 +48,10 @@ const Testimonials = () => {
       </div>
      </div>
      
-         <div className='items-center space-x-5 mt-7'>
-            <button className='rounded-full h-12 w-12 border-2 border-black'></button>
-            <button className='rounded-full h-12 w-12 border-none bg-black'></button>
+         <div className='items-center space-x-5 mt-7 '>
+            <button className='rounded-full h-12 w-12 border-2 border-[#36231d]'> <FaArrowLeft className=' mx-auto' size={20} />
+ </button>
+            <button className='rounded-full h-12 w-12 border-none bg-[#36231d]'> <FaArrowRight className=' mx-auto' size={20} /> </button>
         </div>
     </main>
   )

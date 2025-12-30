@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Footer = () => {
   return (
     <section className='py-4 px-4 bg-[#80603f] text-[#36231d] '>
