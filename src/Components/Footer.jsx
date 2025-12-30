@@ -4,25 +4,32 @@ const Footer = () => {
   return (
     <section className='py-4 px-4 bg-white text-[#36231d] '>
       <div className='grid grid-cols-4 gap-5'>
-        <div>
+        <div className='text-xl'>
       <h3>When looking for a place to get the work done, vist NEAT coffee bar today.
         for your next great meeting, or your best cup of coffee yet! Networking welcomed and accomodated
        </h3>
         </div>
 
-        {/*QUICK LINKS FOR FOOTR SECTION */} <div className=''> 
-           <h3>Quick Link</h3>
-           <div>
-            
+        {/*QUICK LINKS FOR FOOTER SECTION */} <div className=''> 
+           <h3 className='font-medium text-4xl text-center'>Quick Link</h3>
+           <div className=' font-semibold text-base flex flex-col items-center'>
+          <a href="#home" className='p-2'>HOME</a>
+         <a href="#menu" className='p-2'>MENU</a>
+         <a href="#about" className='p-2'>ABOUT US </a>
+         <a href="#newsletter" className='p-2'>NEWSLETTER</a>
+         <a href="#footer" className='p-2'>FOOTER</a>
            </div>
-         <a href="#home">HOME</a>
-         <a href="#menu">MENU</a>
-         <a href="#about">ABOUT US </a>
-         <a href="#newsletter">NEWSLETTER</a>
-         <a href="#footer">FOOTER</a>
         </div>
        
-    
+       {/*NEAT MEMBERSHIP */}
+         <div className=''>
+     <h3 className='text-2xl mb-6 font-semibold'>Neat Membership</h3>
+          <h5 className='text-xl p-1'>Neat Member</h5>
+          <h5 className='text-xl p-2'>Neat Bronze member</h5>
+          <h5 className='text-xl p-2'>Neat Vendor member</h5>
+          <h5 className='text-xl p-2'>Neat Sliver member</h5>
+          <h5 className='text-xl p-2'>Neat Gold Member</h5>
+         </div>
 
       </div>
 
