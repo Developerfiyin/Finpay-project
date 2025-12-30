@@ -31,6 +31,15 @@ const Footer = () => {
           <h5 className='text-xl p-1'>Neat Gold Member</h5>
          </div>
 
+        <div className='font-semibold'>
+          <h2 className='text-4xl mb-4'>Get in Touch</h2>
+         <h5>(725) 484-6312 </h5>
+         <h5> (866)233-834-922 </h5>
+         <h5> (+234)838-911-990 </h5>
+         <h5 className='mb-6'>wayne@neatcoffeegmail.com</h5>
+         <h5>23a yudod street street.</h5>
+        </div>
+
       </div>
 
 
