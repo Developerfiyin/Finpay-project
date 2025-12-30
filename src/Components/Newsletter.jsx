@@ -4,7 +4,7 @@ const Newsletter = () => {
   return (
     <main className=' py-4 px-4 bg-cover bg-center h-80 rounded-4xl items-center text-center ' style={{ backgroundImage: `url(${Footer})` }}>
         <div className='flex flex-col gap-5'>
-       <h2 className='text-6xl text-[#36231D] mt-28 font-semibold items-center text-center'> want updates? Join our NEAT Newsletter today. </h2>
+       <h2 className='text-6xl text-[#36231D] mt-20 font-semibold items-center text-center'> want updates? Join our NEAT Newsletter today. </h2>
        
         </div>
         <input type="text" placeholder='Enter your email Address'
