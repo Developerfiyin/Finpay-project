@@ -7,6 +7,7 @@ import Speciality from './Components/Speciality'
 import About from './Components/About'
 import Testimonials from './Components/Testimonials'  
 import Newsletter from './Components/Newsletter'
+import Footer from './Components/Footer'
 function App() {
 
 
@@ -34,7 +35,9 @@ function App() {
     <section id='newsletter'>
      <Newsletter/>
     </section>
-    <section id='footer'></section>
+    <section id='footer'>
+      <Footer/>
+    </section>
    
    
   
