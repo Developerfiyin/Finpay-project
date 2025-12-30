@@ -11,10 +11,10 @@ const Testimonials = () => {
     
      <div className=' gap-5 grid-cols-3 grid mt-9'> 
       <div className='m-4 p-4 hover:border-2 rounded-2xl shadow-sm shadow-[#36231d] ease-in-out duration-300 '>
-         <div className='flex gap-4 mb-4'> {/* THE IMAGE AND  NAME DIV */ }
+         <div className='flex gap-4 mb-4'> {/*THE IMAGE AND  NAME DIV*/ }
             <img src={image} alt="The member image" className='rounded-full h-15 w-15' /> 
             <div> 
-           <h4 className='text-3xl font-semibold'> Joanna Julie </h4>
+           <h4 className='text-3xl font-semibold'>Joanna Julie </h4>
             <h5 className='text-xl font-medium '>Founder Main Street Bakery</h5>
             </div>
          </div>
@@ -46,8 +46,6 @@ const Testimonials = () => {
       </div>
      </div>
      
-
-  
          <div className='items-center space-x-5 mt-7'>
             <button className='rounded-full h-12 w-12 border-2 border-black'></button>
             <button className='rounded-full h-12 w-12 border-none bg-black'></button>
